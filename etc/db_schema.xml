@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © Ghost Unicorns snc. All rights reserved.
+  ~ See LICENSE for license details.
+  -->
+
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="cms_block_customer_group">
+        <constraint xsi:type="foreign" referenceId="CMS_BLOCK_CUSTOMER_GROUP_BLOCK_ID_CMS_BLOCK_BLOCK_ID" table="cms_block_customer_group"
+                    column="block_id" referenceTable="cms_block" referenceColumn="row_id" onDelete="CASCADE"/>
+    </table>
+</schema>
