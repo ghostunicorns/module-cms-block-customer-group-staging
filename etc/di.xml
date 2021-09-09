@@ -16,8 +16,4 @@
         <plugin sortOrder="1" name="ghostUnicornsCmsBlockCustomerGroupDataProvider"
                 type="GhostUnicorns\CmsBlockCustomerGroupStaging\Plugin\Model\Block\DataProviderPlugin"/>
     </type>
-    <type name="GhostUnicorns\CmsBlockCustomerGroup\Model\IsBlockAllowed">
-        <plugin sortOrder="1" name="ghostUnicornsCmsBlockCustomerGroupStagingIsBlockAllowed"
-                type="GhostUnicorns\CmsBlockCustomerGroupStaging\Plugin\Model\IsBlockAllowedPlugin"/>
-    </type>
 </config>
